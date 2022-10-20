@@ -1,7 +1,7 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         l = 0  # Points to min
-        r = 1  # Points to max
+        r = 1  # Goes through every node to find maxProfit
         maxProfit = 0
 
         while r < len(prices):
